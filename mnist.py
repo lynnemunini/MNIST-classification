@@ -33,5 +33,3 @@ print(model.evaluate(test_images,test_labels))
 plt.imshow(test_images[0])
 prediction=model.predict(test_images)
 print(np.argmax(prediction[0]))
-                                                                                                                            1,1           All
-
